@@ -3,8 +3,8 @@
 
 echo "Project Kickstart 🚀 ..."
 echo
-git clone https://github.com/DoktorSilas/start.git
-cd start
+git clone https://github.com/DoktorSilas/kickstart.git
+cd kickstart
 code ./
 npm install
 rm -rf .git
