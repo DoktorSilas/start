@@ -7,7 +7,15 @@ git clone https://github.com/DoktorSilas/kickstart.git
 cd kickstart
 echo
 npm init
+
+npm -v gulp-cli
+RESULT=$?
+if [ $RESULT -eq 0 ]; then
+  echo "gulp-cli already installed"
+else
 sudo npm install -g gulp-cli
+fi
+
 npm install --save-dev gulp gulp-autoprefixer gulp-clean-css gulp-imagemin@^7.0.1 gulp-rename gulp-sass gulp-sourcemaps gulp-terser gulp-webp node-sass sass 
 gulp compile
 RESULT=$?
