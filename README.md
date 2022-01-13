@@ -16,9 +16,10 @@ Node Package Manager are required. Make sure you can `run node --v.`
 chmod u+x kickstart.sh
 ```
 
-3. create alias
+3. create alias in .bashrc
 ```bash
 alias kickstart="./kickstart.sh"
+source .bashrc
 ```
 
 ### now you can start the script with
