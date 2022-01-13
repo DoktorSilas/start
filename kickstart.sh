@@ -11,7 +11,7 @@ read INPUT_STRING
 mv -vi ../kickstart ../$INPUT_STRING
 cd ..
 cd $INPUT_STRING
-echo "#$INPUT_STRING" > README.md
+echo "# $INPUT_STRING" > README.md
 echo
 npm init
 
