@@ -6,6 +6,12 @@ echo
 git clone https://github.com/DoktorSilas/kickstart.git
 cd kickstart
 echo
+echo "project folder: (Kickstart)" 
+read INPUT_STRING
+mv -vi ../kickstart ../$INPUT_STRING
+cd ..
+cd $INPUT_STRING
+echo
 npm init
 
 npm -v gulp-cli
