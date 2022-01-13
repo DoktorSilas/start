@@ -1,27 +1,27 @@
+![Folder Structure](https://github.com/DoktorSilas/kickstart/blob/main/app/images/src/favicon/folder-structure.png)
 # Project Kickstart
 Start your next project, fast and easy with Kickstart 🚀
 
 ## Prerequisites
 
-This works on macOS and Linux.
+This works on Windows, macOS and Linux.
 Node Package Manager are required. Make sure you can `run node --v.`
 
-# Getting started
+## Getting started
 
-1. download or copy the kickstart.sh
+1. download the kickstart.sh
 
 2. execution rights
 ```bash
 chmod u+x kickstart.sh
 ```
 
-3. add this alias in your .bashrc
+3. create alias
 ```bash
 alias kickstart="./kickstart.sh"
-source .bashrc
 ```
 
-### Now you can start the Kickstart Script with ...
+### now you can start the script with
 ```bash
 kickstart
 ```
