@@ -7,6 +7,7 @@ git clone https://github.com/DoktorSilas/kickstart.git
 cd kickstart
 echo
 npm init
+sudo npm install -g gulp-cli
 npm install --save-dev gulp gulp-autoprefixer gulp-clean-css gulp-imagemin@^7.0.1 gulp-rename gulp-sass gulp-sourcemaps gulp-terser gulp-webp node-sass sass 
 gulp compile
 RESULT=$?
