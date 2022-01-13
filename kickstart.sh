@@ -5,10 +5,28 @@ echo "Project Kickstart 🚀 ..."
 echo
 git clone https://github.com/DoktorSilas/kickstart.git
 cd kickstart
+echo
 npm init
-npm install --save-dev gulp@4.0.2 gulp-autoprefixer@8.0.0 gulp-clean-css@4.3.0 gulp-imagemin@7.0.1 gulp-rename@2.0.0 gulp-sass@5.0.0 gulp-sourcemaps@3.0.0 gulp-terser@2.1.0 gulp-webp@4.0.1 node-sass sass 
+npm install --save-dev gulp gulp-autoprefixer gulp-clean-css gulp-imagemin@^7.0.1 gulp-rename gulp-sass gulp-sourcemaps gulp-terser gulp-webp node-sass sass 
+gulp compile
+RESULT=$?
+if [ $RESULT -eq 0 ]; then
+  echo 
+  echo "gulp runs great!"
+  echo
+  echo "Now you have the kickstarter template running gulp 🚀"
+  echo "-"
+  echo "[gulp compile] compiles your scss and minify your css/js/img"
+  echo "[gulp] does the same LIVE!"
+else
+  echo
+  echo "gulp not yet running :("
+  echo
+  echo "Now you have the kickstarter template 🚀"
+fi
 rm -rf .git
-
+echo
+git init
 code ./
 echo
-echo "Done! 🚀"
+echo "Done!"
