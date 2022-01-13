@@ -1,4 +1,4 @@
-![Folder Structure](https://github.com/DoktorSilas/kickstart/blob/main/app/images/src/favicon/folder-structure.png)
+![Folder Structure](https://raw.githubusercontent.com/DoktorSilas/kickstart/main/app/images/src/folder-structure.png)
 # Project Kickstart
 Start your next project, fast and easy with Kickstart 🚀
 
