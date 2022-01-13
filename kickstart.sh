@@ -13,11 +13,11 @@ RESULT=$?
 if [ $RESULT -eq 0 ]; then
   echo 
   echo "gulp runs great!"
-  echo
-  echo "Now you have the kickstarter template running gulp 🚀"
   echo "-"
+  echo "Now you have the kickstarter template running gulp 🚀"
   echo "[gulp compile] compiles your scss and minify your css/js/img"
   echo "[gulp] does the same LIVE!"
+  echo "-"
 else
   echo
   echo "gulp not yet running :("
