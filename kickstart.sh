@@ -12,6 +12,29 @@ mv -vi ../kickstart ../$INPUT_STRING
 cd ..
 cd $INPUT_STRING
 echo "# $INPUT_STRING" > README.md
+echo "
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+# Local History for Visual Studio Code
+.history/
+
+# Private Node Modules
+node_modules/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+" > .gitignore
 echo
 npm init
 
