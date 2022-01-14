@@ -12,7 +12,7 @@ const imagewebp = require('gulp-webp');
 //compile, prefix, map and min scss
 function compilescss() {
   return src('app/scss/**/*.scss')
-// compoile
+// compile
     .pipe(sass())
     .pipe(prefix('last 2 versions'))
     .pipe(rename({basename: 'main'}))
