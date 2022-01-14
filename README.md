@@ -1,6 +1,6 @@
 ![Folder Structure](https://raw.githubusercontent.com/DoktorSilas/kickstart/main/app/images/src/folder-structure.png)
-# Project Kickstart
-Start your next project, fast and easy with Kickstart 🚀
+# 🚀 Project Kickstart
+ Start your next project, fast and easy with Kickstart
 
 ## Prerequisites
 

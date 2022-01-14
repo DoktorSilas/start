@@ -1,3 +1,17 @@
-body{
-    background-color: #9fe6fa;
-}
+// OVERRIDES
+@import './overrides/custom';
+@import './overrides/override';
+
+// SECTIONS
+@import './sections/header';
+@import './sections/content';
+@import './sections/footer';
+
+// COMPONENTS
+@import './components/animations';
+@import './components/buttons';
+@import './components/mixins';
+@import './components/typography';
+
+
+
