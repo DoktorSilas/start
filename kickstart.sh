@@ -75,7 +75,7 @@ echo
 code ./
 git init
 git add .
-git commit -m "Kickstart init"
+git commit -m "$INPUT_STRING init"
 git checkout -b development
 echo
 echo "Done!"
