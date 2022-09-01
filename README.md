@@ -4,10 +4,6 @@
 
 Start your next project, fast and easy with Kickstart
 
-# Guten Tag !
-
-# Nummer 2
-
 ## Prerequisites
 
 This works on Windows, macOS and Linux.
